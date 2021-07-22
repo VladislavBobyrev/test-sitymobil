@@ -1,16 +1,16 @@
 <h1  align="center">Описание </h1> 
- <p align="center">Приложение состиот из компонентов, поиск , фильтры, задачи, и поля с созданием задачи.</p>
+ <p align="center">Приложение состиот из компонентов, поиск , фильтры, и поля c выбранным элементом.</p>
 
-<h1  align="center">React TODO</h1>
+<h1  align="center">AvtoMobil</h1>
 
 <div align="center">
   
-![Lax 2.0 Gif](https://github.com/VladislavBobyrev/React/blob/main/animation.gif)
+![Lax 2.0 Gif](https://github.com/VladislavBobyrev/test-sitymobil/blob/main/JQPxIDE2C5.gif)
   
 </div>
 <h3  align="center">Общие сведения</h3> 
 <p align="center">
-Рaзмер макета 1920px, CSS  stylys Component компонент поиска ищет совпадения с первой буквы, в задачи можно добавлять и удалять, ставить лайк, и выделять звездочкой, сверху реализован подсчет отмеченых лайлом задач.
+Рaзмер макета 140px, sCSS   компонент поиска ищет совпадения с первой буквы,.
 <h4 align="center">Использовались для создания сайта </h4>
  
 <!-- - c использованием  canvas -->
