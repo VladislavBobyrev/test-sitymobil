@@ -1,0 +1,44 @@
+//=============================== котейнер
+.main {
+	display: grid;
+	grid-template-columns: 1fr minmax(auto, 224px) minmax(auto, 40px) minmax(auto, 1136px) 1fr;
+	min-height: 830px;
+}
+
+// ============================== content main
+
+.content {
+	display: grid;
+	grid-template-rows: 42px 1fr 42px;
+	grid-column: 4/5;
+	row-gap: 16px;
+	padding: 32px 0;
+}
+
+// ============================== search main
+
+.content__seach {
+	display: grid;
+	grid-template-columns: minmax(auto, 900px) minmax(171px, auto);
+
+	input {
+		height: 42px;
+		background: rgba(240, 242, 244, 0.5);
+		border: 1px solid #dee5eb;
+		box-sizing: border-box;
+		box-shadow: inset -1px 0px 0px rgba(198, 209, 221, 0.5);
+	}
+	button {
+		min-width: 171px;
+		height: 42px;
+		background: #7b8395;
+	}
+}
+
+// ============================== value main
+.rezuit__value {
+	background: #F0F2F4	;
+	border: 1px solid #DEE5EB;
+	padding: 13px 16px;
+	height: 42px;
+}

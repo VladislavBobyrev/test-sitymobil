@@ -1,0 +1,28 @@
+//обнуление браузеров
+@import './utilits/resets';
+// шрифт
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+// стили
+
+html, body{
+	width: 100vw;
+	height: 100vh;
+	background:   #FAF9F9;
+	overflow-x: hidden;
+}
+.wrapper {
+	display: grid;
+	grid-template-rows: 128px 1fr 128px;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+@import './header';
+@import './main';
+@import './sidebar';
+@import './table';
+@import './footer';
+
+
+
