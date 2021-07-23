@@ -1,0 +1,13 @@
+// ================================= sidebar
+
+.sidebar {
+	grid-column: 2/3;
+	background: #e4e5e6;
+	font-size: 36px;
+	p {
+		position: relative;
+		top: 50%;
+		text-align: center;
+		color: #707070;
+	}
+}
